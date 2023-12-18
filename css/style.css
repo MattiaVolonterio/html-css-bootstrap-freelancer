@@ -59,6 +59,13 @@ img {
   color: var(--header-footer-bg-color);
 }
 
+/* SQUARE */
+
+.square {
+  width: 60px;
+  aspect-ratio: 1;
+}
+
 /* ## HEADER */
 
 #header {
