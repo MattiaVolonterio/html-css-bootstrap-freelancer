@@ -231,7 +231,7 @@
 
       <!-- SECTION CONTACT ME -->
       <section id="contact_me" class="py-3">
-        <div class="container border_debug">
+        <div class="container">
           <!-- contact me title -->
           <div class="d-flex flex-column align-items-center">
             <h2>CONTACT ME</h2>
@@ -249,27 +249,37 @@
 
           <!-- form -->
           <form>
-            <span
-              class="d-block mx-5 pt-1 pb-3 fs-4 text-secondary-emphasis border-bottom border-secondary-subtle"
-            >
-              Name
-            </span>
-            <span
-              class="d-block mx-5 pt-1 pb-3 fs-4 text-secondary-emphasis border-bottom border-secondary-subtle"
-            >
-              Email Address
-            </span>
-            <span
-              class="d-block mx-5 pt-1 pb-3 fs-4 text-secondary-emphasis border-bottom border-secondary-subtle"
-            >
-              Phone Number
-            </span>
-            <span
-              class="d-block mx-5 pt-2 pb-5 fs-4 text-secondary-emphasis border-bottom border-secondary-subtle"
-            >
-              Message
-            </span>
-            <button class="btn mx-5 my-3 btn-success">Send</button>
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <input
+                  type="text"
+                  class="form-control border-top-0 border-end-0 border-start-0"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="col-10">
+                <input
+                  type="email"
+                  class="form-control border-top-0 border-end-0 border-start-0"
+                  placeholder="Email Address"
+                />
+              </div>
+              <div class="col-10">
+                <input
+                  type="text"
+                  class="form-control border-top-0 border-end-0 border-start-0"
+                  placeholder="Phone Number"
+                />
+              </div>
+              <div class="col-10">
+                <textarea
+                  class="form-control border-top-0 border-end-0 border-start-0"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+                <button class="btn my-3 btn-success">Send</button>
+              </div>
+            </div>
           </form>
           <!-- end form -->
         </div>
@@ -281,7 +291,7 @@
         <div class="container pt-4 text-center text-light">
           <div class="row g-4">
             <!-- location top -->
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3 col-lg-4">
               <h4 class="fs-5 my-3 fw-light">LOCATION</h4>
               <span class="d-block fs-5"
                 >2215 John Daniel Drive Clark, MO 54243</span
@@ -290,13 +300,13 @@
             <!-- end location top -->
 
             <!-- around the web -->
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <h4 class="fs-5 my-3 fw-light">AROUND THE WEB</h4>
 
               <!-- link list -->
               <ul class="ps-0">
                 <!-- facebook -->
-                <li class="d-inline-block m-2">
+                <li class="d-inline-block m-2 m-md-1">
                   <button
                     class="btn btn-outline-light fs-3 rounded-circle square"
                   >
@@ -306,7 +316,7 @@
                 <!-- end facebook -->
 
                 <!-- google -->
-                <li class="d-inline-block m-2">
+                <li class="d-inline-block m-2 m-md-1">
                   <button
                     class="btn btn-outline-light fs-3 rounded-circle square"
                   >
@@ -316,7 +326,7 @@
                 <!-- end google -->
 
                 <!-- twitter -->
-                <li class="d-inline-block m-2">
+                <li class="d-inline-block m-2 m-md-1">
                   <button
                     class="btn btn-outline-light fs-3 rounded-circle square"
                   >
@@ -326,7 +336,7 @@
                 <!-- end twitter -->
 
                 <!-- linkedin -->
-                <li class="d-inline-block m-2">
+                <li class="d-inline-block m-2 m-md-1">
                   <button
                     class="btn btn-outline-light fs-3 rounded-circle square"
                   >
@@ -340,7 +350,7 @@
             <!-- end around the web -->
 
             <!-- about freelancer -->
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-3 col-lg-4">
               <h4 class="fs-5 my-3 fw-light">ABOUT FREELANCER</h4>
               <p>
                 Freelance is a free to use, open source Bootstrap theme created
@@ -361,7 +371,7 @@
     <!-- FOOTER -->
     <footer id="footer">
       <span class="d-block text-center text-light fs-6 pt-4"
-        >Copyright C Your Website 2019</span
+        >Copyright &copy; Your Website 2019</span
       >
     </footer>
     <!-- END FOOTER -->

@@ -16,16 +16,11 @@ img {
   border: 2px dashed red;
 }
 
+/* ## UTILS */
 #header,
 #footer {
   min-height: 100px;
 }
-
-#main > section {
-  min-height: 100px;
-}
-
-/* ## UTILS */
 
 /* SEPARATOR */
 
