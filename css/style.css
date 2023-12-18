@@ -5,6 +5,11 @@
   --location-bg-color: #3a546d;
 }
 
+/* ## RESET */
+img {
+  max-width: 100%;
+}
+
 /* ## DEBUG */
 .border_debug {
   min-height: 50px;
