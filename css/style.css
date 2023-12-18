@@ -1,3 +1,42 @@
+/* ## CUSTOM PROP */
+:root {
+  --header-footer-bg-color: #2c3e50;
+  --section-odd-bg-color: #1abc9c;
+  --location-bg-color: #3a546d;
+}
+
+/* ## DEBUG */
 .border_debug {
   border: 1px dashed black;
+}
+
+#header,
+#footer {
+  min-height: 100px;
+}
+
+#main > section {
+  min-height: 250px;
+}
+
+/* ## HEADER */
+
+#header {
+  background-color: var(--header-footer-bg-color);
+}
+
+/* ## MAIN */
+
+#main > section:nth-of-type(odd) {
+  background-color: var(--section-odd-bg-color);
+}
+
+#main > #location {
+  background-color: var(--location-bg-color);
+}
+
+/* ## FOOTER */
+
+#footer {
+  background-color: var(--header-footer-bg-color);
 }
