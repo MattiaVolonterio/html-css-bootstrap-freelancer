@@ -50,6 +50,12 @@
   background-color: var(--header-footer-bg-color);
 }
 
+#contact_me .separator_left,
+#contact_me .separator_right,
+#contact_me .separator_middle {
+  background-color: var(--header-footer-bg-color);
+}
+
 /* ## HEADER */
 
 #header {
