@@ -37,23 +37,21 @@
 }
 
 .separator_middle {
-  width: 15px;
-  aspect-ratio: 1;
-  background-color: white;
+  color: white;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 #portfolio .separator_left,
 #portfolio .separator_right,
-#portfolio .separator_middle {
+#contact_me .separator_left,
+#contact_me .separator_right {
   background-color: var(--header-footer-bg-color);
 }
 
-#contact_me .separator_left,
-#contact_me .separator_right,
+#portfolio .separator_middle,
 #contact_me .separator_middle {
-  background-color: var(--header-footer-bg-color);
+  color: var(--header-footer-bg-color);
 }
 
 /* ## HEADER */
