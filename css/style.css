@@ -20,6 +20,30 @@
   min-height: 250px;
 }
 
+/* ## UTILS */
+
+/* SEPARATOR */
+
+.separator {
+  width: 30%;
+}
+
+.separator_left,
+.separator_right {
+  height: 3px;
+  border-radius: 3px;
+  background-color: white;
+  width: 35%;
+}
+
+.separator_middle {
+  width: 15px;
+  aspect-ratio: 1;
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 /* ## HEADER */
 
 #header {
