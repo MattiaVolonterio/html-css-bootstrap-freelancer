@@ -7,7 +7,8 @@
 
 /* ## DEBUG */
 .border_debug {
-  border: 1px dashed black;
+  min-height: 50px;
+  border: 2px dashed red;
 }
 
 #header,
