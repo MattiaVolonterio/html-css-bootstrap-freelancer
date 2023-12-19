@@ -10,17 +10,7 @@ img {
   max-width: 100%;
 }
 
-/* ## DEBUG */
-.border_debug {
-  min-height: 50px;
-  border: 2px dashed red;
-}
-
 /* ## UTILS */
-
-#footer {
-  min-height: 100px;
-}
 
 /* SEPARATOR */
 
